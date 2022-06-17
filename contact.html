@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+
+<html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <title>Balozi ent</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <script src="https://goo.gl/maps/6Z26EEE5bNPzsbZA9"></script>
+        
+        <script>
+            function initialize() {
+                var mapCanvas = document.getElementById('map-canvas');
+                var mapOptions = {
+                    center: new google.maps.LatLng(-1.135260, 36.973477),
+                    zoom: 16,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(mapCanvas, mapOptions)
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="contact-page">
+
+
+            <!-- site-navigation start -->  
+            <nav id="mainNavigation" class="navbar navbar-dafault main-navigation" role="navigation">
+                <div class="container">
+                    
+                    <div class="navbar-header">
+                        
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        <!-- navbar logo -->
+                        <div class="navbar-brand">
+                            <span class="sr-only">BALOZIENT</span>
+                            <a href="index.html">
+                                <img src="assets/img/main_logo.pngg" class="img-responsive center-block">
+                            </a>
+                        </div>
+                        <!-- navbar logo -->
+
+                    </div><!-- /.navbar-header -->
+
+                    <!-- nav links -->
+                    <div class="collapse navbar-collapse" id="main-nav-collapse">
+                        <ul class="nav navbar-nav navbar-right text-uppercase">
+                            <li>
+                                <a href="index.html"><span>home</span></a>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>pages</span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="about.html">about</a>
+                                    </li>
+                                    <li>
+                                        <a href="service.html">service</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio.html">portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="gallery.html">gallery</a>
+                                    </li>
+                                    
+                                </ul>   <!-- /.dropdown-menu -->
+                            </li> <!-- /.dropdown -->
+
+
+
+                            <li>
+                                <a href="contact.html"><span>contact</span></a>
+                            </li>
+                        </ul>
+                    </div><!-- nav links -->
+                    
+                </div><!-- /.container -->
+            </nav>
+            <!-- site-navigation end -->
+
+
+
+            <!-- header begin -->
+            <header class="page-head">
+                <div class="header-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <ol class="breadcrumb">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active">Contact</li>
+                                </ol> <!-- end of /.breadcrumb -->
+
+                            </div>
+                        </div>
+                    </div> <!-- /.container -->
+                </div> <!-- /.header-wrapper -->
+            </header> <!-- /.page-head (header end) -->
+
+
+            <div claas="main-content">
+                <div class="container">
+
+                    <!-- google map iframe -->
+                    <section class="g-map">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="google-map">
+                                    <div id="map-canvas">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.3148148960887!2d36.97426902822654!3d-1.1338929844561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f476cba62da4d%3A0xcb7f7aabec0b2639!2sWa%20Dennis%20Electricals!5e0!3m2!1sen!2ske!4v1655417273496!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> <!-- /.g-map (google-map end) -->
+
+
+
+                    <!-- contact adresses section begin -->
+                    <section class="contact-address bg-white">
+                        <div class="row">
+
+                            <div class="col-md-4 col-xs-12">
+                                <div class="address-info">
+                                    <div class="row">
+
+                                        <div class="col-md-3 col-xs-3">
+                                            <div class="address-info-icon text-center center-block bg-light-gray">
+                                                <i class="fa fa-map-marker"></i>
+                                            </div> <!-- /.address-info-icon -->
+                                        </div>
+
+                                        <div class="col-md-9 col-xs-9 address-info-desc">
+                                            <h3>Office Address</h3>
+                                            <p>
+                                                KENYA<br/>
+                                                StreetView, KENYA
+                                            </p>
+                                        </div> <!-- /.address-info-desc -->
+
+                                    </div>
+                                </div> <!-- /.address-info -->
+                            </div>
+
+                            <div class="col-md-4 col-xs-12">
+                                <div class="address-info">
+                                    <div class="row">
+
+                                        <div class="col-md-3 col-xs-3">
+                                            <div class="address-info-icon text-center center-block bg-light-gray">
+                                                <i class="fa fa-phone"></i>
+                                            </div> <!-- /.address-info-icon -->
+                                        </div>
+
+                                        <div class="col-md-9 col-xs-9 address-info-desc">
+                                            <h3>Phone Number</h3>
+                                            <p>
+                                                +254 0759384176
+                                                <br/>
+                                                +254 0113652800
+                                            </p>
+                                        </div> <!-- /.address-info-desc -->
+
+                                    </div>
+                                </div> <!-- /.address-info -->
+                            </div>
+
+                            <div class="col-md-4 col-xs-12">
+                                <div class="address-info">
+                                    <div class="row">
+
+                                        <div class="col-md-3 col-xs-3">
+                                            <div class="address-info-icon text-center center-block bg-light-gray">
+                                                <i class="fa fa-envelope-o"></i>
+                                            </div> <!-- /.address-info-icon -->
+                                        </div>
+
+                                        <div class="col-md-9 col-xs-9 address-info-desc">
+                                            <h3>Email Address</h3>
+                                            <p>
+                                                chrischris6270@gmail.com
+                                                <br/>
+                                                vincentmorrow@gmail.com
+                                            </p>
+                                        </div> <!-- /.address-info-desc -->
+
+                                    </div>
+                                </div> <!-- /.address-info -->
+                            </div>
+
+                        </div>
+                    </section> <!-- /.contact-address -->
+
+
+
+                    <!-- contact-form -->
+                    <section class="contact-form">
+
+                        <!-- call for contact -->
+                        <div class="headline text-center">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <h2 class="section-title">Say Hello! Don't be shy</h2>
+                                    <p class="section-sub-title">
+                                        If you have any questions or comments, or would just like to say hello, 
+                                        <br/>please feel free to contact our friendly team
+                                    </p> <!-- /section-sub-title -->
+                                </div>
+                            </div>
+                        </div> <!-- /.contact-speech -->
+                        
+
+
+
+
+
+                        <form action="https://formsubmit.co/chrischris6270 @email.com" method="POST">
+
+
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                    <div class="form-group">
+                                        <input  name="name" type="text" class="form-control" id="name" required="required" placeholder="Full Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input name="email" type="email" class="form-control" id="email" required="required" placeholder="Email Address">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input name="number" type="number" class="form-control" id="number" required="required" placeholder="Your number">
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-8">
+                                    <textarea name="message" type="text" class="form-control" id="message" rows="8" required="required" placeholder="Type here message"></textarea>
+                                </div>
+                            </div>
+
+                                <button type="submit" id="submit" name="submit" class="btn btn-black">send message</button>
+                            
+                        </form> <!-- form end -->
+                    </section> <!-- /.contact-form -->
+
+                </div> <!-- container -->
+            </div>
+                                   <form onsubmit="sendEmail(); reset(); return false;">
+
+            <script>
+                function sendEmail(){
+                    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "chrischris6270@gmail.com",
+    Password : "ianmaina6270",
+    To : 'chrischris6270@gmail.com',
+    From : document.getElementById('email').value,
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: " + document getElementById('name').value
+            + "<br> Email: " + document getElementById('email').value
+            + "<br> Phone no: " + document getElementById('phone no').value
+            + "<br> Massage: " + document getElementById('massage').value
+}).then(
+  message => alert(Message sent succesfully)
+);
+                }
+            </script>
+            <!-- main-content end -->
+
+
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="footer-share-button">
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul> <!-- /.footer-share-button -->
+                                </div>
+                            </div>
+                        </div> <!-- /.footer-widget -->
+
+                    </div>
+                </div>
+            </footer>
+
+
+            <!-- footer-navigation start -->  
+            <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                <div class="container">
+                    
+                    <div class="navbar-header">
+                        
+                        <!-- navbar logo -->
+                        <div class="navbar-brand">
+                            <span class="sr-only">&copy;BALOZIENT</span>
+                            <a href="index.html">
+                                &copy;BALOZIENT
+                            </a>
+                        </div>
+                        <!-- navbar logo -->
+
+                    </div><!-- /.navbar-header -->
+
+                    <!-- nav links -->
+                    <div class="collapse navbar-collapse" id="main-nav-collapse">
+                        <ul class="nav navbar-nav navbar-right text-capitalize">
+                            <li><a href="#about">
+                                <span>home</span>
+                            </a></li>
+
+                            <li><a href="#services">
+                                <span>pages</span>
+                            </a></li>
+
+                            <li><a href="#portfolio">
+                                <span>features</span>
+                            </a></li>
+
+                            <li><a href="#team">
+                                <span>portfolio</span>
+                            </a></li>
+
+                            <li><a href="#pricing">
+                                <span>blog</span>
+                            </a></li>
+
+                            <li><a href="#blog">
+                                <span>shop</span>
+                            </a></li>
+
+                            <li><a href="#contact">
+                                <span>contact</span>
+                            </a></li>
+                        </ul>
+                    </div><!-- nav links -->
+                    
+                </div><!-- /.container -->
+            </nav>
+            <!-- footer-navigation end -->
+
+        </div> <!-- /#contact-page (page end) -->
+
+
+    </body>
+</html>
